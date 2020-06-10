@@ -27,6 +27,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+  <--->
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -113,6 +114,8 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\bg.imageset\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,5 +135,8 @@
       <Project>{3A09CB78-25A0-464C-8664-0F254B457415}</Project>
       <Name>AlphaMatch</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\bg.imageset\" />
   </ItemGroup>
 </Project>

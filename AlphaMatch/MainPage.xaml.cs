@@ -13,9 +13,11 @@ namespace AlphaMatch
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(int howMany)
         {
             InitializeComponent();
+
+            
         }
     }
 }

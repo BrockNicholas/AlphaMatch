@@ -10,7 +10,7 @@ namespace AlphaMatch
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new IntroPage();
         }
 
         protected override void OnStart()

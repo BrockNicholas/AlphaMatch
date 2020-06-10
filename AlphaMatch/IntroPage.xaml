@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AlphaMatch.IntroPage" xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+ios:Page.UseSafeArea="true">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+
+            <Frame CornerRadius="15" BackgroundColor="Black" Margin="20,60,20,60">
+                <Label Text="How many cards?" TextColor="White" BackgroundColor="Black" HorizontalOptions="CenterAndExpand" FontSize="Title" />
+            </Frame>
+            
+            <Frame CornerRadius="15" BackgroundColor="White" Margin="20">
+                <Button x:Name="six" Text="6" FontSize="Title" />
+            </Frame>
+
+            <Frame CornerRadius="15" BackgroundColor="White" Margin="20">
+                <Button x:Name="eight" Text="8" FontSize="Title" />
+            </Frame>
+
+            <Frame CornerRadius="15" BackgroundColor="White" Margin="20">
+                <Button x:Name="twelve" Text="12" FontSize="Title" />
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
